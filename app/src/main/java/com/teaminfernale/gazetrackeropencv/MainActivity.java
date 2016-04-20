@@ -146,9 +146,9 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
                         Log.e(TAG, "Failed to load cascade. Exception thrown: " + e);
                     }
 
-                   /* mOpenCvCameraView.setCameraIndex(1);
+                    mOpenCvCameraView.setCameraIndex(1);
                     mOpenCvCameraView.enableFpsMeter();
-                    mOpenCvCameraView.enableView();*/
+                    mOpenCvCameraView.enableView();
 
                 } break;
 
