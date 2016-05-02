@@ -1,6 +1,7 @@
 package com.teaminfernale.gazetrackeropencv;
 
 import android.content.Context;
+import android.graphics.Camera;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -183,6 +184,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.fd_activity_surface_view);
         mOpenCvCameraView.setCvCameraViewListener(this);
 
+
         mMethodSeekbar = (SeekBar) findViewById(R.id.methodSeekBar);
         mValue = (TextView) findViewById(R.id.method);
 
@@ -260,7 +262,6 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         mOpenCvCameraView.disableView();
     }
 
-
     @Override
     public void onCameraViewStarted(int width, int height) {
         mGray = new Mat();
@@ -280,6 +281,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 
         mRgba = inputFrame.rgba();
         mGray = inputFrame.gray();
+
 
         if (mAbsoluteFaceSize == 0) {
             int height = mGray.rows();
