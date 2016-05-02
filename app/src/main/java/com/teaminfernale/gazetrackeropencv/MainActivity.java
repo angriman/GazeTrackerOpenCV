@@ -226,8 +226,6 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
                         mValue.setText("TM_CCORR_NORMED");
                         break;
                 }
-
-
             }
         });
     }
