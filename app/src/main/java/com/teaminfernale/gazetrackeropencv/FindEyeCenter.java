@@ -39,7 +39,17 @@ public class FindEyeCenter {
 
     public void testPossibleCentersFormulas(int x, int y, Mat weight, double gx, double gy, Mat out) {
         for (int cy = 0; cy < out.rows(); ++cy) {
-            double
+            //double TODO
         }
     }
+
+
+
+    public void findEyeCenter(Mat face, Rect eye, String debugWindow){
+        // TODO
+        // ???  Mat eyeROIUnscaled = face;
+
+
+    }
+
 }

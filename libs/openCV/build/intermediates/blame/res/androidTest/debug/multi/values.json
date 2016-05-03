@@ -1,6 +1,10 @@
 [
     {
-        "outputFile": "/Users/Eugenio/AndroidStudioProjects/GazeTrackerOpenCV/libs/openCV/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "outputFile": "C:\\Users\\Eugenio\\AndroidStudioProjects\\GazeTrackerOpenCV\\libs\\openCV\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": []
+    },
+    {
+        "outputFile": "C:\\Users\\Leonardo\\AndroidStudioProjects\\GazeTrackerOpenCV\\libs\\openCV\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
         "map": []
     }
 ]
